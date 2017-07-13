@@ -1,0 +1,157 @@
+#aboutheading{
+  background: url("../images/img3.jpg") no-repeat center top;
+  background-color: inherit;
+  padding: 60px 0 60px 0;
+  background-size: cover;
+  min-height: 150px;
+  box-shadow: 0 1px 25px 2px #000;
+}
+
+#footer{
+  font-size: 14px;
+  color: #aaa;
+  padding-bottom: 30px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#fb{
+  margin-left: 48.5%;
+}
+
+.logo{
+  height: 130px;
+  width: 130px;
+  padding-left: 60px;
+}
+.text{
+  float: right;
+  text-align: center;
+  font-size: 15px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+a:visited{
+  color: #a4c7e4;
+}
+a:link{
+  text-decoration: none;
+  color: #a4c7e4;
+}
+
+a:hover{
+  color: #555;
+}
+
+.cart{
+  height: 50px;
+  width: 50px;
+  float:right;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  font-family: 'Poiret One', cursive;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #222;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #a4c7e4}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.social-icon{
+      width: 20px;
+      height: 20px;
+      margin: 0 3px;
+      padding: 25px 1px 15px 1px;
+}
+
+h1 {
+  color: #ffffcc;
+  font-family: 'Voces', cursive;
+  margin: 0;
+  font-size: 5em;
+}
+
+h2{
+  margin: 0;
+}
+
+.background{
+  background-image: url('../images/img4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+  font-family: 'Voces', serif;
+  padding: 30px 30px 0 30px;
+  margin: 20px 0 0 20px;
+  text-align: center;
+  color: #333;
+}
+
+h3{
+  font-size: 70px;
+  padding-left: 40px;
+  color: #a4c7e4;
+  text-shadow: 2px 2px 6px #000;
+  font-family: 'Poiret One', cursive;
+}
+
+h4{
+  font-family: 'Voces', serif;
+  padding: 30px 30px 0 30px;
+  margin: 20px 0 0 20px;
+  text-align: center;
+  color: #333;
+}
+
+@media screen (min-width:660px) h1{
+   width: 45%;
+}

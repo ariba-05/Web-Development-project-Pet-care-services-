@@ -1,0 +1,167 @@
+body{
+  background-color: white;
+  font-family:Arial;
+  text-align: center;
+  padding: 0;
+  background-image: url('../images/1675.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+input[type=number],input[type=email],input[type=tel],select {
+  background-color: white;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text] ,input[type=password],select {
+  background-color: white;
+    width: 70%;
+    opacity: 0.8;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit] {
+background-color: skyblue;;
+border: none;
+color: black;
+padding: 10px;
+
+margin: 4px 2px;
+cursor: pointer;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  margin-top: 21.44px;
+}
+fieldset {
+  font-weight:bold;
+  margin: auto;
+  width: 70%;
+  border: 2px solid black;
+  padding: 30px;
+}
+label {
+   font-weight:bold;
+   width: 60px;
+   font-size:14px;
+   text-align: center;
+}
+
+.logo{
+  height: 130px;
+  width: 130px;
+  padding-left: 60px;
+  margin-left: -934px;
+}
+.text{
+  float: right;
+  text-align: center;
+  font-size: 15px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+a:visited{
+  color: #a4c7e4;
+}
+a:link{
+  text-decoration: none;
+  color: #a4c7e4;
+}
+
+a:hover{
+  color: #555;
+}
+
+.cart{
+  height: 50px;
+  width: 50px;
+  float:right;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  font-family: 'Poiret One', cursive;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #222;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #a4c7e4}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#footer{
+  font-size: 14px;
+  color: #aaa;
+  padding-bottom: 30px;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+
+}
+
+#fb{
+  padding-left: 0;
+}
+
+
+.social-icon{
+      width: 20px;
+      height: 20px;
+      margin: 0 3px;
+      padding: 25px 1px 15px 1px;
+}

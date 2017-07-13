@@ -1,0 +1,46 @@
+body{
+  background-color:white;
+  text-align: center;
+  background-image: url('../images/form.png') ;
+}
+
+input[type=text] ,input[type=password],input[type=number],input[type=email],input[type=tel],input[type=date],select {
+  background-color: white;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+input[type=submit] {
+background-color: coral;
+border: none;
+color: black;
+padding: 10px;
+
+margin: 4px 2px;
+cursor: pointer;
+}
+fieldset {
+ font-weight:bold;
+ margin: auto;
+ width: 50%;
+ border: 2px solid black;
+ padding: 30px;
+}
+
+div.field{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.box{
+  margin-left:250px;
+  margin-right: 250px;
+  background-color: rgba(255,255,255,0.6);
+
+}
